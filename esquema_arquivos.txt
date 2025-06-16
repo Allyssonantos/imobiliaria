@@ -1,0 +1,32 @@
+/imobiliaria/
+├── index.html                <-- MUDOU
+├── login.html                <-- MUDOU
+├── painel_proprietario.html    <-- MUDOU
+├── painel_admin.html           <-- MUDOU
+|
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       ├── app.js              <-- NOVO (Gerencia auth e navegação)
+│       ├── main.js
+│       ├── auth.js
+│       └── painel.js
+|
+├── uploads/
+|
+└── includes/
+    ├── db_connect.php
+    └── auth_check_api.php      <-- Renomeado para clareza
+|
+└── api/
+    ├── check_session.php       <-- NOVO (Verifica se o usuário está logado)
+    ├── get_imoveis.php
+    ├── registrar_usuario.php
+    ├── login_usuario.php
+    ├── logout.php
+    ├── cadastrar_imovel.php
+    ├── editar_imovel.php
+    ├── excluir_imovel.php
+    ├── get_meus_imoveis.php
+    └── get_admin_data.php
